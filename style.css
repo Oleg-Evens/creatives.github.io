@@ -1,0 +1,574 @@
+@font-face {
+	font-family: myRiadPro;
+	src: url(fonts/myRiadPro.otf);
+}
+
+@font-face {
+	font-family: GothaProReg;
+	src: url(fonts/GothaProReg.otf);
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: GothaProMed;
+	src: url(fonts/GothaProMed.otf);
+}
+
+input::-input-placeholder { 
+	color: #fff; 
+}
+input::-moz-input-placeholder { 
+	color: #fff; 
+}
+input::-webkit-input-placeholder { 
+	color: #fff; 
+}
+
+textarea::-input-placeholder { 
+	color: #fff; 
+}
+textarea::-moz-input-placeholder { 
+	color: #fff; 
+}
+textarea::-webkit-input-placeholder { 
+	color: #fff; 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.head {
+	background: url(images/head.jpg) no-repeat;
+	background-size: cover; 
+	width: 100%;
+	height: 880px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-family: myRiadPro;
+	font-size: 20px;
+	border-bottom: 1px #757575 solid; 
+}
+
+.nav {
+	padding: 50px 25px 45px 25px;
+	border-bottom: 3px transparent solid; 
+}
+
+.nav:hover {
+	border-bottom: 3px #11749e solid;
+}
+
+.creatives {
+	font-size: 152px;
+	color: #fff;
+	font-family: GothaProReg;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 275px;
+}
+
+.main-scroll {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.scroll {
+	height: 60px;
+	width: 60px;
+	font-size: 14px;
+	font-family: myRiadPro;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.scroll:first-child {
+	width: 100px;
+}
+
+.fa-caret-down {
+	padding: 30px;
+	border: 1px #5d5d5d solid;
+	border-radius: 50%;
+	margin-left: -5px;
+	margin-top: 22px;
+	transition: 0.25s;
+}
+
+.fa-caret-down:hover {
+	color: #d9d9d9;
+	border: 1px #d9d9d9 solid;
+}
+
+.content {
+	height: 735px;
+	width: 100%;
+	background: #11749e;
+}
+
+.word-w {
+	font-size: 247px;
+	font-family: Roboto-Regular;
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	color: #fff;
+	opacity: 0.3;
+	margin-top: 100px;
+}
+
+.descr-w {
+	font-family: GothaProMed;
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	padding-top: 225px;
+	margin-bottom: 150px;
+}
+
+.objects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.obj {
+	width: 265px;
+	text-align: center;
+	margin: 0 25px;
+}
+
+.obj h3 {
+	font-size: 18px;
+	font-family: GothaProReg;
+	color: #fff;
+	margin-top: 25px;
+}
+
+.obj p {
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: GothaProReg;
+	color: #fff;
+}
+
+.fa-bank {
+	color: #fff;
+	padding: 50px;
+	background: #2e85aa;
+	border-radius: 50%;
+}
+
+.second-content {
+	height: 1100px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.block {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.elem-1 {
+	width: 50%;
+	height: 550px;
+	background: #222222;
+}
+
+.elem-2 {
+	background: url(images/kit-image1.jpg) no-repeat;
+	background-size: cover; 
+	width: 50%;
+	height: 550px;
+}
+
+.elem-3 {
+	background: url(images/kit-image2.jpg) no-repeat;
+	background-size: cover;  
+	width: 50%;
+	height: 550px;
+}
+
+.elem-4 {
+	width: 50%;
+	height: 550px;
+	background: #f3f3f3;
+}
+
+.main {
+	width: 520px;
+	margin: 125px 0 0 200px;
+	color: #fff;
+}
+
+.main-q {
+	width: 520px;
+	margin: 125px 0 0 200px;
+	color: #000;
+}
+
+
+.date {
+	font-size: 16px;
+	font-family: GothaProReg;
+}
+
+.caption {
+	font-size: 28px;
+	font-family: GothaProReg;
+	padding-top: 10px;
+}
+
+.desc1 {
+	font-size: 16px;
+	font-family: GothaProReg;
+	padding-top: 35px;
+}
+
+.desc2 {
+	font-size: 16px;
+	font-family: GothaProReg;
+	padding-top: 25px;
+}
+
+.third-content {
+	height: 1050px;
+	width: 100%;
+	background: #fff;
+}
+
+.word-b {
+	font-size: 247px;
+	font-family: Roboto-Regular;
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	color: #9d9d9d;
+	opacity: 0.3;
+	margin-top: 100px;
+}
+
+.descr-b {
+	font-family: GothaProMed;
+	font-size: 38px;
+	color: #222222;
+	text-align: center;
+	padding-top: 225px;
+}
+
+.description {
+	font-family: GothaProReg;
+	font-size: 25px;
+	color: #222222;
+	text-align: center;
+	padding-top: 125px;
+}
+
+.obj-q {
+	width: 265px;
+	text-align: center;
+	margin: 75px 25px 0 25px;
+}
+
+.obj-q h3 {
+	font-size: 18px;
+	font-family: GothaProReg;
+	color: #11749e;
+	margin-top: 25px;
+}
+
+.obj-q p {
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: GothaProReg;
+	color: #000;
+}
+
+.little-text {
+	height: 350px;
+	width: 100%;
+	background: #11749e;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.text {
+	display: flex;
+	font-family: GothaProReg;
+	font-size: 15px;
+	color: #fff;
+	width: 560px;
+	margin-top: 150px;
+}
+
+.text p {
+	margin-left: 15px;
+}
+
+.fourth-content {
+	background: url(images/content4.jpg);
+	height: 850px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.content-text {
+	font-family: GothaProReg;
+	color: #fff;
+	margin-top: 225px;
+}
+
+.text-one {
+	width: 470px;
+}
+
+.name {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.desc-name {
+	margin-top: 40px;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+.text-two {
+	margin-top: 65px;
+	font-size: 15px;
+}
+
+.text-two div {
+	padding: 10px 10px;
+	margin: 20px 0;
+	background: #11749e;
+	border-radius: 1px;
+}
+
+.text-two div:nth-child(1) {
+	width: 370px;
+}
+
+.text-two div:nth-child(2) {
+	width: 400px;
+}
+
+.text-two div:nth-child(3) {
+	width: 430px;
+}
+
+.image-phone {
+	margin-top: 225px;
+	margin-right: 200px;
+}
+
+.word-t {
+	font-size: 247px;
+	font-family: Roboto-Regular;
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	color: #9d9d9d;
+	opacity: 0.3;
+	margin-top: 100px;
+}
+
+.descr-t {
+	font-family: GothaProMed;
+	font-size: 38px;
+	color: #222222;
+	text-align: center;
+	padding-top: 225px;
+}
+
+.description-t {
+	font-family: GothaProReg;
+	font-size: 25px;
+	color: #222222;
+	text-align: center;
+	padding-top: 125px;
+}
+
+.team {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.specialist-name {
+	width: 275px;
+	height: 335px;
+	color: #fff;
+	margin: 0 10px;
+}
+
+.john {
+	background: url(images/john.png);
+	background-size: cover; 
+}
+
+.edvard {
+	background: url(images/edvard.png);
+	background-size: cover; 
+}
+
+.david {
+	background: url(images/david.png);
+	background-size: cover; 
+}
+
+.katrin {
+	background: url(images/katrin.png);
+	background-size: cover; 
+}
+
+.signature {
+	background: #fff;
+	padding: 5px 0;
+	margin: 0 25px;
+	font-family: GothaProReg;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.signature h4 {
+	padding: 1px 0;
+	color: #11749e;
+}
+
+.signature p {
+	padding: 1px 0;
+	color: #000;
+}
+
+.footer {
+	background: url(images/bg-footer.jpg) no-repeat;
+	background-size: cover;
+	height: 850px;
+	width: 100%;
+}
+
+.word-c {
+	font-size: 247px;
+	font-family: Roboto-Regular;
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	color: #fff;
+	opacity: 0.3;
+	margin-top: 100px;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+.descr-c {
+	font-family: GothaProMed;
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	padding-top: 225px;
+}
+
+.small-text {
+	width: 1165px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.small-text input {
+	border: none;
+	outline: none;
+	border-right: 1px #fff solid;
+	border-left: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	background: transparent;
+	font-family: GothaProReg;
+	height: 40px;
+	width: 30%;
+	font-size: 15px;
+	color: #fff;
+	padding-left: 15px;
+}
+
+
+.not-small-text textarea {
+	border: 1px #fff solid;
+	resize: none;
+	outline: none;
+	background: transparent;
+	font-family: GothaProReg;
+	width: 1150px;
+	height: 150px;
+	margin-top: 40px;
+	font-size: 15px;
+	color: #fff;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.button {
+	text-align: center;
+	margin-top: 45px;
+}
+
+.button a {
+	padding: 20px 65px;
+	font-family: GothaProReg;
+	font-size: 24px;
+	border: 1px;
+	color: #fff;
+	background: #11749e;
+	transition: 0.25s;
+	-o-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+}
+
+.button a:hover {
+	background: #0e9bd6;
+}
+
+.rights {
+	height: 110px;
+	width: 100%;
+	font-size: 13px;
+	font-family: Roboto-Regular;
+	background: #222222;
+	color: #fff;
+	line-height: 110px;
+}
+
+.rights div {
+	padding-left: 250px;
+}
